@@ -195,7 +195,8 @@ PRODUCT_PACKAGES += \
 EXTRA_UDFPS_ANIMATIONS ?= false
 ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
-    UdfpsResources
+    UdfpsResources \
+    UdfpsIcons
 endif
 
 # Lockscreen clock fonts
